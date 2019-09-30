@@ -1,0 +1,37 @@
+ .card{
+box-align: center;
+align-content: center;
+
+background-color: bisque;
+height: 300px;
+width: 400px
+} 
+
+ .nav-link
+{
+ 
+font-size: 20px;
+
+} 
+.form-group
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.id{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.container{
+  
+height: 400px;
+}
+
+

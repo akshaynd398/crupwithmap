@@ -1,0 +1,8 @@
+
+ <!-- // this is nothing but binding latitude and longitude .  -->
+
+ <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="onchoseLocation($event)">    
+
+  <agm-marker [latitude]="latitude" [longitude]="longitude"   *ngIf="locationChosen"> </agm-marker>
+
+  </agm-map>   

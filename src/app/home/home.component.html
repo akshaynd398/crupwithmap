@@ -1,0 +1,39 @@
+
+  <div >
+
+  <nav class="navbar navbar-expand navbar-dark bg-secondary">
+    <div class="navbar-nav">
+        
+        <a class="nav-link" [routerLink]="['/home']">Home</a>
+        <a class="nav-link" [routerLink]="['/about']">About</a>
+        <a class="nav-link" [routerLink]="['/contact']">Contact</a>
+        <a class="nav-text"  ></a>
+        <a class="nav-link" > </a>
+
+        <button class=" btn btn-primary btn-block "[routerLink]="['/login']"><i class="fa fa-sign-out">SignOut</i></button>
+        
+    </div>
+      </nav>
+     <h4>Welcome {{currentUser.firstName}}!</h4> 
+      <div class="container">
+        <!-- <div class="jumbotron">
+          <h2 style="text-align: center;color:red">Welcome to CRUD</h2>
+          
+        </div> --> 
+        <!-- <button [routerLink]="['/employee']"><i class="fa fa-save" ></i> Add Employee</button>  -->
+
+  <div class="row">
+   <div class="col-md-5">
+      <app-employee></app-employee>
+    </div>
+
+
+    <div class="col-md-6">
+        <app-employee-list></app-employee-list>
+      </div>
+      
+  </div>
+</div>
+  </div>
+<!-- <ngx-ui-loader>
+</ngx-ui-loader> -->
